@@ -1,0 +1,334 @@
+li {
+    color: green;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+/* header background*/
+.header{
+    background-image: url(https://media.npr.org/assets/img/2012/09/19/purple-tape-pile_wide-62e1baf0db66268f6376029608dd06a191b8389b-s900-c85.jpg);
+    color: white;
+    display:block;
+    text-align: center;
+    padding:25px;
+    font-size: 30px;
+    
+}
+#h2-header{
+    background-color: black;
+    width: 150px;
+    margin:auto;
+    
+}
+
+/* body list imaging*/
+
+#subject_bold{
+    font-weight: bold
+
+}
+img{max-width: 75%;
+    max-height: 75%;
+}
+
+
+span {box-sizing: border-box;
+    align-self: auto;
+}
+
+
+
+/* like button and comment button*/
+.btn {
+    background-color:rgb(113, 2, 113);
+    border: none;
+    color: black;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color:black;
+    color:rgb(113, 2, 113)
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+.ratingbtn{
+    background-color:black;
+    color: white;
+    margin-left: 95px;
+    border-color: yellow;
+    border-width: thick;
+    
+}
+
+#rating1{ 
+    display: none;
+}
+#rating2{
+    display: none;
+}
+#rating3{
+    display: none;
+}
+
+
+/* Comment Btn Modal */ 
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    
+    background-image: url("http://33.media.tumblr.com/84e7d082d447efb120ff037ae18350aa/tumblr_nko2mkVQlA1ruhpqxo1_500.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 65%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: yellow;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.addCommenttitle {
+    color: yellow;
+    max-width: 215px;
+    margin: auto;
+}
+
+.textField{
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 75px;
+    box-sizing: border-box;
+    border: 2px solid rgb(113, 2, 113); 
+    border-radius: 25px;
+}
+
+.submitField{
+    background-color:black;
+    color: white;
+    margin-left: 42%;
+    border-color: yellow;
+    border-width: thick;
+    padding: 8px;
+
+}
+
+
+/* SIGN UP CSS */
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+/* Set a style for all buttons */
+.signupbtn {
+    background-color: rgb(113, 2, 113);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+    float: right;
+}
+
+.signupbtn:hover {
+    opacity:1;
+}
+
+.SignUpcancelbtn {
+        background-color: black;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 50%;
+        opacity: 0.9;
+        float: left;
+    }
+    
+    .SignUpcancelbtn:hover {
+        opacity:1;
+
+    }
+/* Add padding to container elements */
+.SignUpcontainer {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCenyNJaYeKBnHb-6Svzuub-F9sQX3BkAAkRG86w54SoXfzGSQ);
+    padding: 16px;
+    
+}
+/* The Modal (background) */
+.SignUpmodal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.SignUpmodal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* like button and comment button*/
+.signup {
+    background-color:rgb(113, 2, 113);
+    border: none;
+    color: black;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    float: right
+}
+
+/* Darker background on mouse-over */
+.signup:hover {
+    background-color:black;
+    color:rgb(113, 2, 113)
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .SignUpcancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+
+
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+    display:none;
+    background: royalblue;
+    color: #000;
+    position: relative;
+    padding: 5px;
+    margin-top: 4px;
+}
+
+#message p {
+    padding: 10px 35px;
+    font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+    color: green;
+}
+
+.valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+}
+.h1text{
+    color: yellow
+}
+/* Border OutLine*/
+#coolComments {
+    border: 5px solid black;
+    padding: 13px;
+    border-radius: 50px 20px;
+    width: 75%
+}
